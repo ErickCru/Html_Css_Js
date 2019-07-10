@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devnormalice-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Swiper Slider</title>
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Slide One</h3>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa neque, odio cupiditate ullam
+                            et
+                            quidem?
+                            Quidem magnam minus quas amet consequuntur eaque quae, ducimus architecto tempora id a
+                            perferendis
+                            ea?
+                        </p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Slide Two</h3>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa neque, odio cupiditate ullam
+                            et
+                            quidem?
+                            Quidem magnam minus quas amet consequuntur eaque quae, ducimus architecto tempora id a
+                            perferendis
+                            ea?
+                        </p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Slide Three</h3>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa neque, odio cupiditate ullam
+                            et
+                            quidem?
+                            Quidem magnam minus quas amet consequuntur eaque quae, ducimus architecto tempora id a
+                            perferendis
+                            ea?
+                        </p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Slide Four</h3>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa neque, odio cupiditate ullam
+                            et
+                            quidem?
+                            Quidem magnam minus quas amet consequuntur eaque quae, ducimus architecto tempora id a
+                            perferendis
+                            ea?
+                        </p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Slide Five</h3>
+                    </div>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa neque, odio cupiditate ullam
+                            et
+                            quidem?
+                            Quidem magnam minus quas amet consequuntur eaque quae, ducimus architecto tempora id a
+                            perferendis
+                            ea?
+                        </p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 30,
+                stretch: 0,
+                depth: 200,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
+</body>
+
+</html>
