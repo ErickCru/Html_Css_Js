@@ -1,0 +1,15 @@
+{
+	"name": "Tailwind_Css",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build:css": "tailwind build src/estilos.css -o dist/estilos.css"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"tailwindcss": "^1.0.5"
+	}
+}
